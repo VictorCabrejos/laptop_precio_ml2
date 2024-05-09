@@ -15,7 +15,6 @@ st.title('Predicción de Precios de Laptops')
 ram = st.number_input('RAM (GB)', min_value=1, max_value=64, value=8)
 screen_width = st.number_input('Ancho de Pantalla', min_value=800, max_value=4000, value=1920)
 screen_height = st.number_input('Alto de Pantalla', min_value=600, max_value=3000, value=1080)
-ssd = st.number_input('SSD (GB)', min_value=0, max_value=2000, value=256)
 ghz = st.number_input('GHz del CPU', min_value=0.1, max_value=5.0, value=2.5)
 
 
